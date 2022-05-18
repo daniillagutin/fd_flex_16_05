@@ -9,22 +9,22 @@ a{
 .header{
   padding: 10px;
   border: 2px solid;
-  align-items: center;
   background-color: black;
   
 }
 .wrapper{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 .logo{
-  /* margin-left:1.5em; */
   text-transform: capitalize;
   font-size: 1.5em;
   font-family: 'Comic Neue', cursive;
   font-weight: 700;
   color: white;
+  
 }
 .list{
   display: flex;
@@ -42,7 +42,6 @@ a{
   color: white;
 }
 .btn{
-  /* margin-right: 1.5em; */
   padding: 0.5em 1.2em;
   border: 1px solid white;
   border-radius: 3px;
